@@ -1,5 +1,5 @@
+# snake , water , gun or in other word we says rock paper scissors
 import random
-# snake , water , gun or rock paper scissors
 def gameWin(comp, you):
     if comp == you:
         return None
@@ -42,4 +42,5 @@ if a == None:
 elif a:
     print("You Win!!")
 else:
+
     print("Lose!!")
