@@ -11,12 +11,14 @@ def gameWin(comp, you):
             return False
         elif you =='g':
             return True
+            
      # check for all possibilities when computer chose w
     elif comp == 'w':
         if you =='g':
             return False
         elif you=='s':
             return True
+            
      # check for all possibilities when computer chose g
     elif comp == 'g':
         if you =='s':
@@ -44,3 +46,4 @@ elif a:
 else:
 
     print("Lose!!")
+
